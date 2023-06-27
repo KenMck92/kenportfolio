@@ -8,7 +8,12 @@ body {
     background-color: rgb(0, 0, 0);
     background-image: url(../asset/images/giphy.gif);
 
-}header {
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(0, 0, 0) ;
@@ -18,7 +23,6 @@ body {
 
 header h1 {
     font-size: 48px;
-    text-align: center;
 }
 
 h1 {
@@ -56,9 +60,9 @@ header nav ul li {
 button {
     background: none;
     color: white;
-    border: 5px solid white;
+    /* border: 5px solid white; */
     border-radius: 20px;
-    padding: 16px 32em;
+    padding: 16px 2em;
     font-size: 16px;
     transition: all 0.2;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -156,6 +160,10 @@ p {
     text-align: center;
 }
 
+#ContactMe > ul {
+    list-style-type: none;
+}
+
 .resume {
     text-align: center;
 }
@@ -181,6 +189,11 @@ footer {
 @media screen and (min-width: 768px) {
     #leftsidebar {width: 200px; float: left;}
     #main {margin-right: 20px;}
+
+    #Work.work{
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
