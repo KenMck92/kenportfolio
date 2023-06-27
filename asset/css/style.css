@@ -17,8 +17,13 @@ body {
 }
 
 header h1 {
-    display: inline-block;
     font-size: 48px;
+    text-align: center;
+}
+
+header h2 {
+font-size: 30px;
+text-align: center;
 }
 
 header nav {
@@ -36,7 +41,7 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    /* text-decoration: underline; */
+    
 }
 
 button {
@@ -48,7 +53,6 @@ button {
     font-size: 16px;
     transition: all 0.2;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
 }
 
 button:hover {
@@ -106,13 +110,25 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #035486;
+    background: linear-gradient(0deg,rgb(0, 0, 0) 0%, #035486);
     border-radius: 30px;
     color: #ffffff;
 }
 
+.content, .resume {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #035486;
+    background: linear-gradient(0deg,rgb(0, 0, 0) 0%, #035486);
+    border-radius: 30px;
+    color: #ffffff;
+    display: inline-block;
+}
+
 .contact {
     text-align: center;
-    display: inline-block;
 }
 
 .resume {
@@ -128,4 +144,39 @@ p {
 .about h2, .work h2, .contact h2, .resume h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    align-content: baseline;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        display: block;
+        max-width: 100%;
+    }
+    
+    .element {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .code {
+        max-width: 100%;
+        padding-right: 7%;
+        justify-content: center;
+    }
+    
+    .content {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    button {
+
+    }
+
 }
