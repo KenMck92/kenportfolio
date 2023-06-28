@@ -10,6 +10,6 @@ CSS:
 In css I used flexbox to organize and put my content in the ares I wanted them on the page. I used borders and various colors to decorate the page. I used the hover code to show when I hovered over my navigation bar and previous work image. I also used media queries to make my context fit to screen when using different devices to view the page. 
 
 ## Usage
-![Alt text](kenportfolio-index-html-2023-06-27-21_21_12.png)
+![Alt text](./asset/images/kenportfolio-index-html-2023-06-27-21_21_12.png)
 
 https://kenmck92.github.io/kenportfolio/
