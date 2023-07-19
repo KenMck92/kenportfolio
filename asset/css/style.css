@@ -108,6 +108,11 @@ p {
     font-size: 20px;
 }
 
+#work {
+    display: inline;
+    flex-wrap: wrap;
+}
+
 .code {
     height: 300px;
     width: 100%;
@@ -125,6 +130,13 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
+}
+
+.float {
+    display: inline-block;
+    flex-wrap: wrap;
+    float: left;
+    margin-right: 50px;
 }
 
 .content {
